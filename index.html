@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 class="teams">HOME</h3>
+                <h2 class="score-left" id="count-el-home">0</h2>
+                <div class="button">
+                    <button id="increment-btn"  onclick="addOneHome()" class="btn-1">+1</button>
+                    <button id="increment-btn" onclick="addTwoHome()" class="btn-2">+2</button>
+                    <button id="increment-btn" onclick="addThreeHome()" class="btn-3">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="teams">GUEST</h3>
+                <h2 class="score-right" id="count-el-guest">0</h2>
+                <div class="button">
+                    <button id="increment-btn" onclick="addOneGuest()" class="btn-1">+1</button>
+                    <button id="increment-btn" onclick="addTwoGuest()" class="btn-2">+2</button>
+                    <button id="increment-btn" onclick="addThreeGuest()" class="btn-3">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

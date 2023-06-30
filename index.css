@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.teams {
+    font-family: verdana;
+    font-style: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: auto auto 10px auto;
+}
+
+.score-left, .score-right {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #080001;
+    font-size: 90px;
+    font-style: Cursed Timer ULiL;
+    color: #F94F6D;
+    width: 90px;
+    margin: 0px 10px 25px 10px;
+    padding: 25px 50px 25px 50px;
+    border-radius: 10px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 15px;
+    border: 4px solid white;
+    background: #03045e;
+}
+
+.btn-1, .btn-2, .btn-3 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    background: #03045e;
+    color: #9AABD8;
+    border: 1px solid white;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+    border-color: #9AABD8
+}
+
